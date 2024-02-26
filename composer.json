@@ -1,0 +1,23 @@
+{
+    "name": "andrew/vending_machine",
+    "description": "Test: Vending machine",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Models\\": "Models/",
+            "Commands\\": "Commands/",
+            "Commands\\CommandImplementations\\": "Commands/CommandImplementations/",
+            "App\\": "App/",
+            "Traits\\": "Traits/"
+        }
+    },
+    "require": {
+        "php": ">=8.3"
+    },
+    "authors": [
+        {
+            "name": "Andrew Chubenko",
+            "email": "darwenua@gmail.com"
+        }
+    ]
+}
